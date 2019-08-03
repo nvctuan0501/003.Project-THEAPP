@@ -1,0 +1,42 @@
+  .buttons {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 15.5px 24px;
+    font-size: 15px;
+  }
+
+  .buttons.buttons-primary {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-weight: bolder;
+  }
+
+  .buttons.buttons-primary:hover {
+    background-color: #ccc;
+  }
+
+  .buttons.buttons-dark {
+    color: #fff;
+    background-color: #000;
+    border: 0;
+  }
+
+  .buttons-dark + .buttons-dark {
+    margin-left: 5px;
+  }
+
+  .buttons.buttons-dark:hover {
+    color: #000;
+    background-color: #ccc;
+    border: 0;
+  }
+
+  .buttons.buttons-dark:first-child {
+    cursor: no-drop;
+    filter: opacity(20%);
+  }

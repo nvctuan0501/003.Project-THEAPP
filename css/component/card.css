@@ -1,0 +1,52 @@
+.cards {
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 40px;
+}
+
+.cards .cards-img {
+  height: 284px;
+  background-position: center;
+  background-size: cover;
+}
+
+.cards .cards-body {
+  padding: 16px;
+}
+
+.cards-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.cards-description {
+  margin-bottom: 24px;
+}
+
+.cards-datetime {
+  color: #dddddd;
+  margin-left: 4px;
+}
+
+.cards-text {
+  margin-bottom: 24px;
+}
+
+.cards .cards-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards .cards-comment > p {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+
+@media ( max-width : 576px) {
+  .cards-comment {
+    display: none;
+  }
+}

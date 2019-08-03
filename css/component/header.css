@@ -1,0 +1,15 @@
+header {
+  /* background-color: lightpink; */
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.headline {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: bold;
+  margin: 13px auto 30px;
+}
+.headline-title {
+  margin: 30px auto;
+}
