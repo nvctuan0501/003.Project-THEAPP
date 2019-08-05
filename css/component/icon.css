@@ -1,0 +1,22 @@
+.group-icon {
+  font-size: 0;
+}
+
+.group-icon .icon {
+  display: inline-block;
+  white-space: nowrap;
+  width: calc(100% / 4);
+  font-size: 16px;
+}
+
+.group-icon .icon .icon-lg {
+  font-size: 64px;
+}
+
+.group-icon .icon .icon-md {
+  font-size: 24px;
+}
+
+.group-icon .icon-hover:hover {
+  opacity: .3;
+}

@@ -1,0 +1,46 @@
+section {
+  padding: 64px 16px;
+}
+
+section.section-grey {
+  background-color: #616161;
+  text-align: center;
+}
+
+section.section-lightgrey {
+  background-color: #F1F1F1;
+}
+
+section.section-white {
+  background-color: #ffffff;
+}
+
+section .row {
+  display: flex;
+}
+
+section .row .col-infor {
+  width: 70%;
+}
+
+section .row .col-img {
+  width: 30%;
+}
+
+section .row .col-img .img {
+  width: 320px;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+section .col-infor .description {
+  color: #000000;
+  line-height: 1.5;
+  display: block;
+  font-size: 16px;
+}
+
+section .col-infor .description > span {
+  font-size: 24px;
+}

@@ -1,0 +1,21 @@
+.list {
+  color: #000;
+}
+
+.list .list-item {
+  padding: 16px;
+  line-height: 1.5;
+}
+
+.list .list-item + .list-item {
+  border-top: 1px solid #ccc;
+}
+
+.list .list-item:nth-last-child(2) {
+  font-size: 30px;
+  opacity: .6;
+}
+
+.list .list-item:last-child {
+  background-color: #f1f1f1;
+}

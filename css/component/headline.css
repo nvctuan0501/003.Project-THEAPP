@@ -1,0 +1,21 @@
+.headline {
+  font-weight: bold;
+  line-height: 1.5;
+  display: block;
+}
+
+.headline.headline-lg {
+  font-size: 64px;
+}
+
+.headline.headline-md {
+  font-size: 48px;
+}
+
+.headline.headline-sm {
+  font-size: 24px;
+}
+
+.headline.headline-xs {
+  font-size: 18px;
+}
